@@ -1,0 +1,143 @@
+body{
+    background-color: #0097a7;
+    font-family: 'Lato', sans-serif;
+}
+
+#container{
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+
+    color: azure;
+    margin-top: 20px;
+    font-size: x-large;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+#menu{
+
+    background-color: #B2EBF2;
+    margin-top: 20px;
+    padding: 10px;
+    color: #2A6A8F;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#topbar{
+
+    background-color: #42C0F2;
+    font-size: large;
+    padding: 10px;
+    height: 170px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#topbarL{
+
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 138px;
+    border-right: 2px dotted #0097a7;
+
+}
+
+#topbarR{
+
+    float: left;
+    padding: 20px;
+    width: 960px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#sidebar{
+
+    float: left;
+    width: 148px;
+    min-height: 620px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-right: 2px dotted azure;
+    background-color: #B2EBF2;
+    color: #2A6A8F;
+
+}
+
+#content{
+
+    float: left;
+    padding: 40px;
+    width: 930px;
+    background-color: #42C0F2;
+    min-height: 580px;
+    text-align: justify;
+}
+
+
+#footer{
+
+    clear: both;
+    background-color: #0097a7;
+    text-align: center;
+    color: azure;
+    padding: 20px;
+    font-size: large;
+}
+
+.option{
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: medium;
+    padding: 10px;
+    border-right: 2px dotted #0097a7;
+    opacity: 0.8;
+}
+
+.option:hover{
+    background-color: #5d243c;
+    color: azure;
+    border-right: 2px dotted azure;
+    cursor: pointer;
+}
+
+.optionL{
+
+    font-size: medium;
+    padding: 10px;
+    border-bottom: 2px dotted #0097a7;
+}
+
+.optionL:hover{
+
+    background-color: #f36742;
+    color: azure;
+    border-right: 2px dotted azure;
+    cursor: pointer;
+}
+
+.bigtitle{
+    font-size: x-large;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.dottedline{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 3px dotted #0097a7;
+
+}
